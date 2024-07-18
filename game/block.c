@@ -1,4 +1,4 @@
-#include "block.h"
+#include "../libs/block.h"
 void render_square() {
     glBegin(GL_QUADS);
     glColor3f(0.0f, 1.0f, 0.0f);
