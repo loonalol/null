@@ -6,6 +6,7 @@
         "*.vue": "vue",
         "glfw3.h": "c",
         "render.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "stdlib.h": "c"
     }
 }

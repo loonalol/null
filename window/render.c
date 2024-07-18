@@ -2,6 +2,7 @@
 #include "GLFW/glfw3.h"
 #include <OpenGL/gl.h>
 #include <stdio.h>
+#include "game/block.h"
 GLFWwindow* window;
 void error_callback(int error, const char* description) {
     fprintf(stderr, "Error: %s\n", description);
@@ -33,6 +34,7 @@ void init() {
 void render() {
     while (!glfwWindowShouldClose(window)) {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+        render_square();
 glClearColor(0.7f, 0.7f, 1.0f, 1.0f);
         glfwSwapBuffers(window);
         glfwPollEvents();
