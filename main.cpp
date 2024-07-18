@@ -1,5 +1,5 @@
 
-#include "libs/render.h"
+#include "libs/render.hpp"
 int main() {
     init();
     render(); 

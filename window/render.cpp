@@ -2,8 +2,8 @@
 #include "GLFW/glfw3.h"
 #include <OpenGL/gl.h>
 #include <stdio.h>
-#include "../libs/block.h"
-#include "../libs/player.h"
+#include "../libs/block.hpp"
+#include "../libs/player.hpp"
 #include <Kernel/math.h>
 
 GLFWwindow* window;

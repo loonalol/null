@@ -1,4 +1,4 @@
-#include "../libs/block.h"
+#include "../libs/block.hpp"
 void render_cube() {
     glBegin(GL_QUADS);
 
